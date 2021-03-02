@@ -1,0 +1,8 @@
+node_modules
+
+dist/*
+./dist/*
+/src/web/styles/*
+/package-lock.json
+./package-lock.json
+.git

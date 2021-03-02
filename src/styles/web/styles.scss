@@ -1,0 +1,15 @@
+@import "vars";
+
+$base-font-size: 16px;
+
+body {
+  font-size: $base-font-size;
+}
+
+.test {
+  color: blue;
+}
+
+.red {
+  color: $color;
+}
