@@ -1,15 +1,18 @@
 @import "vars";
+@import "../common/common.scss";
 
 $base-font-size: 16px;
 
 body {
   font-size: $base-font-size;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.test {
-  color: blue;
-}
-
-.red {
-  color: $color;
+.color {
+  &-prime {
+    color: blue;
+  }
+  &-error {
+    color: $color;
+  }
 }

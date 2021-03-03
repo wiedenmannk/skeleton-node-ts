@@ -1,7 +1,40 @@
-.myClass {
-  margin-left: 5px;
+$size: 40%;
+
+@mixin fullSize {
+  width: 100%;
+  height: 100%;
 }
 
-.test {
-  margin-top: 5px;
+
+.big {
+  border: 1px solid #dad1d1;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: $size;
+  height: $size;
+  min-width: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+container {
+  display: block;
+  @include fullSize;
+}
+
+body {
+  display: block;
+  @include fullSize;
+}
+.fullSize {
+  @include fullSize;
+}
+
+html {
+  display: block;
+  @include fullSize;
 }
