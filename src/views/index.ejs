@@ -3,6 +3,8 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/styles/styles.css' />
+    <script src="/js-scripts/log.js"></script>
+    <script src="/js-scripts/test.js"></script>
   </head>
   <body>
     <container class="flex">
@@ -10,7 +12,8 @@
         <div>
           <h1 class="color-prime"><%= title %></h1>
           <p>Welcome to <%= title %></p>
-          <p class="color-error">and here is a nice error color</p>        
+          <p class="color-error">and here is a nice error color</p>
+          <p><button onclick="sayHello();">test javaScript log.ts as log.js</button></p>        
         </div>
       </div>
     </container>

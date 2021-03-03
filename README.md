@@ -49,3 +49,7 @@ npm run scss
 if you want to have scss watcher seperatly
 
 ---
+
+---
+
+## In Ejs you still must use js files, because tsc compiler use for import a require. Require is only working for node.js
